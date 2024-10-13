@@ -7,6 +7,7 @@ import ExperienceHighlights from './components/experience';
 import Testimonials from './components/testimonials';
 import Gallery from './components/gallery';
 import Footer from './components/footer';
+import Header from './components/header';
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
       </Head>
 
       <main className="relative z-10" >
-      <div className='w-half inset-0 bg-white bg-opacity-30 backdrop-blur-md'>
+        <div className='w-half inset-0 bg-white bg-opacity-30 backdrop-blur-md'>
+          <Header />
           <Main />
           <Appointment />
-          <ExperienceHighlights/>
+          <ExperienceHighlights />
           <Testimonials />
           <Gallery />
           <Footer />
