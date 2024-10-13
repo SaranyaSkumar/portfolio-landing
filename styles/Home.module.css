@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display:  flex;
 }
 
 .title a {
@@ -89,4 +90,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.leftContent {
+  flex: 1;
+}
+
+.rightContent {
+  flex: 1;
 }
